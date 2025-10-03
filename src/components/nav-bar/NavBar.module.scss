@@ -1,0 +1,25 @@
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #6C60F3;
+    position: absolute;
+    width: 80%;
+    padding: 0.5rem 1rem;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+    ul {
+        width: 100%;
+    }
+
+    li:first-of-type ~ li {
+        justify-self: flex-start;
+    }
+}
+
+.close-btn {
+    justify-self: flex-end;
+}

@@ -1,0 +1,19 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+
+    div {
+        justify-items: flex-start;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    p:first-of-type {
+        font-size: 2rem;
+    }
+
+}
